@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --purple: rgb(245, 27, 245);
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.firstpage{
+    width: 100%;
+    padding-top: 20vh;
+    background: var(--purple);
+    height: 100vh;
+    overflow: hidden;
+}
+.N_pay_logo{
+    width: 90%;
+    margin-left: 7%;
+}
+.firstpage h4{
+    font-size: 2rem;
+    margin-left: 40vw;
+    margin-top: -5rem;
+}
+.signUp{
+    display: none;
+    padding: 2%;
+}
+.signupNav{
+    display: flex;
+    flex-wrap: wrap;
+}
+.signupNav h4{
+    padding-left: 35vw;
+}
+.signupNav span{
+    margin-left: 2%;
+}
+/* .signUpForm{
+    
+} */
+.signUpForm_h3{
+    font-size: 1.5rem;
+    text-align: left;
+}
+.signUpForm_p{
+    font: 1rem;
+}
